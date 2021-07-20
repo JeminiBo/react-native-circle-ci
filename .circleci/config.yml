@@ -16,7 +16,7 @@ jobs:
     steps:
       # Checkout the code as the first step.
       - checkout:
-          path: ~/react-native-circle-ci/
+          path: ~code/react-native-circle-ci/
 
       # The next step will run the unit tests
       - android/run-tests:
